@@ -15,14 +15,14 @@ const platforms = [
     <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-slate-100">
       Seamlessly integrate with your existing tools
     </h2>
-    <p class="text-base md:text-lg lg:text-xl text-slate-400 mb-12">No need to replace your customer service system, just authorize API access</p>
+    <p class="text-base md:text-lg lg:text-xl text-slate-300 mb-12">No need to replace your customer service system, just authorize API access</p>
 
     <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mt-12">
       {platforms.map((platform) => (
         <div class="group">
-          <div class="h-32 bg-slate-800 rounded-xl flex items-center justify-center text-slate-200 font-medium text-sm md:text-base border border-slate-700 hover:border-slate-600 transition-all hover:scale-105 cursor-pointer">
+          <div class="h-32 bg-slate-800 rounded-xl flex items-center justify-center text-slate-200 font-medium text-sm md:text-base border border-slate-700 hover:border-blue-500/50 transition-all hover:scale-105 cursor-pointer">
             <div class="flex items-center gap-2">
-              <svg class="w-4 h-4 md:w-5 md:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg class="w-4 h-4 md:w-5 md:h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
               </svg>
               <span>{platform.name}</span>
