@@ -1,0 +1,74 @@
+---
+<section class="py-20 px-6 bg-slate-800" id="pain-points">
+  <div class="max-w-7xl mx-auto">
+    <header class="text-center mb-16">
+      <h2 class="text-4xl md:text-5xl font-bold mb-4">
+        文字沒有表情，所以<span class="text-red-400">誤會更容易發生</span>
+      </h2>
+      <p class="text-xl text-slate-400">三大文字客服陷阱，正在悄悄流失您的客戶</p>
+    </header>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <article class="bg-slate-900 rounded-xl p-8 border border-slate-700 hover:border-blue-500/50 transition-all hover:-translate-y-1">
+        <div class="text-5xl mb-4 inline-block p-4 bg-gradient-to-br from-orange-500 to-red-500 rounded-xl" aria-hidden="true">
+          🤖
+        </div>
+        <h3 class="text-2xl font-bold mb-3 text-slate-200">複製貼上的機器人</h3>
+        <p class="text-slate-400 leading-relaxed">
+          客服人員為了求快，瘋狂使用罐頭回覆，客戶感受不到被重視，滿意度直線下降。
+        </p>
+      </article>
+
+      <article class="bg-slate-900 rounded-xl p-8 border border-slate-700 hover:border-blue-500/50 transition-all hover:-translate-y-1">
+        <div class="text-5xl mb-4 inline-block p-4 bg-gradient-to-br from-red-500 to-pink-500 rounded-xl" aria-hidden="true">
+          💣
+        </div>
+        <h3 class="text-2xl font-bold mb-3 text-slate-200">看不見的情緒地雷</h3>
+        <p class="text-slate-400 leading-relaxed">
+          文字雖然禮貌，但隱藏的冷淡或諷刺（Passive Aggressive），人工主管看 100 行對話也難以察覺。
+        </p>
+      </article>
+
+      <article class="bg-slate-900 rounded-xl p-8 border border-slate-700 hover:border-blue-500/50 transition-all hover:-translate-y-1">
+        <div class="text-5xl mb-4 inline-block p-4 bg-gradient-to-br from-pink-500 to-purple-500 rounded-xl" aria-hidden="true">
+          🌪️
+        </div>
+        <h3 class="text-2xl font-bold mb-3 text-slate-200">多平台管理災難</h3>
+        <p class="text-slate-400 leading-relaxed">
+          訊息散落在 LINE、官網、App 裡，QA 根本無法跨平台有效稽核。
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<style>
+  article {
+    animation: fadeInUp 0.6s ease forwards;
+    opacity: 0;
+  }
+  
+  article:nth-child(1) {
+    animation-delay: 0.1s;
+  }
+  
+  article:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  
+  article:nth-child(3) {
+    animation-delay: 0.3s;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
+

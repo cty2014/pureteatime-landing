@@ -1,0 +1,36 @@
+---
+const platforms = [
+  { name: "LINE OA", color: "from-green-400 to-green-600" },
+  { name: "Live Chat", color: "from-orange-400 to-orange-600" },
+  { name: "WellyTalk", color: "from-purple-400 to-purple-600" },
+  { name: "Zendesk", color: "from-red-400 to-red-600" },
+  { name: "Salesforce", color: "from-cyan-400 to-cyan-600" },
+  { name: "Intercom", color: "from-indigo-400 to-indigo-600" },
+  { name: "Slack", color: "from-pink-400 to-pink-600" },
+  { name: "More...", color: "from-slate-400 to-slate-600" }
+];
+---
+<section class="py-20 px-6 bg-slate-900" id="integration">
+  <div class="max-w-7xl mx-auto text-center">
+    <h2 class="text-4xl md:text-5xl font-bold mb-4">
+      無痛串接您現有的工具
+    </h2>
+    <p class="text-xl text-slate-400 mb-12">不需更換客服系統，只需授權 API</p>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mt-12">
+      {platforms.map((platform) => (
+        <div class="group">
+          <div class={`h-32 bg-gradient-to-br ${platform.color} rounded-xl flex items-center justify-center text-white font-bold text-lg border border-slate-700 hover:border-blue-500/50 transition-all hover:scale-105 cursor-pointer`}>
+            <div class="flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              </svg>
+              {platform.name}
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
