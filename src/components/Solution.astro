@@ -11,59 +11,44 @@
       </h2>
     </header>
 
-    <div class="space-y-16">
-      <article class="flex flex-col md:flex-row gap-8 items-center">
-        <div class="flex-1 space-y-4">
-          <div class="inline-flex items-center gap-3 px-4 py-2 bg-blue-500/10 text-blue-400 rounded-lg font-medium border border-blue-500/20">
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-            </svg>
-            <span class="text-sm md:text-base">One Dashboard</span>
-          </div>
-          <h3 class="text-2xl md:text-3xl font-bold text-slate-100">Omnichannel Quality Control</h3>
-          <p class="text-base md:text-lg text-slate-300 leading-relaxed">
-            Whether customers come from LINE OA, WellyTalk, or Live Chat, all conversations are aggregated into a single platform for analysis. No need to switch windows—quality is clear at a glance.
-          </p>
+    <div class="grid md:grid-cols-3 gap-8">
+      <article class="bg-slate-800 rounded-xl p-8 border border-slate-700 hover:border-blue-500/30 transition-all">
+        <div class="inline-flex items-center gap-3 px-4 py-2 bg-blue-500/10 text-blue-400 rounded-lg font-medium border border-blue-500/20 mb-6">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+          </svg>
+          <span class="text-sm md:text-base">One Dashboard</span>
         </div>
-        <div class="flex-1">
-          <div class="h-64 bg-blue-500/5 rounded-2xl flex items-center justify-center border border-blue-500/10"></div>
-        </div>
+        <h3 class="text-xl md:text-2xl font-bold text-slate-100 mb-4">Omnichannel Quality Control</h3>
+        <p class="text-sm md:text-base text-slate-300 leading-relaxed">
+          Whether customers come from LINE OA, WellyTalk, or Live Chat, all conversations are aggregated into a single platform for analysis. No need to switch windows—quality is clear at a glance.
+        </p>
       </article>
 
-      <article class="flex flex-col md:flex-row-reverse gap-8 items-center">
-        <div class="flex-1 space-y-4">
-          <div class="inline-flex items-center gap-3 px-4 py-2 bg-purple-500/10 text-purple-400 rounded-lg font-medium border border-purple-500/20">
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-            </svg>
-            <span class="text-sm md:text-base">Tone & Sentiment</span>
-          </div>
-          <h3 class="text-2xl md:text-3xl font-bold text-slate-100">Semantic & Sentiment Detection</h3>
-          <p class="text-base md:text-lg text-slate-300 leading-relaxed">
-            AI can read the warmth between the lines. Accurately identifies responses that are "over-promising," "harsh in tone," or "lacking empathy," and sends instant alerts.
-          </p>
+      <article class="bg-slate-800 rounded-xl p-8 border border-slate-700 hover:border-purple-500/30 transition-all">
+        <div class="inline-flex items-center gap-3 px-4 py-2 bg-purple-500/10 text-purple-400 rounded-lg font-medium border border-purple-500/20 mb-6">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+          </svg>
+          <span class="text-sm md:text-base">Tone & Sentiment</span>
         </div>
-        <div class="flex-1">
-          <div class="h-64 bg-purple-500/5 rounded-2xl flex items-center justify-center border border-purple-500/10"></div>
-        </div>
+        <h3 class="text-xl md:text-2xl font-bold text-slate-100 mb-4">Semantic & Sentiment Detection</h3>
+        <p class="text-sm md:text-base text-slate-300 leading-relaxed">
+          AI can read the warmth between the lines. Accurately identifies responses that are "over-promising," "harsh in tone," or "lacking empathy," and sends instant alerts.
+        </p>
       </article>
 
-      <article class="flex flex-col md:flex-row gap-8 items-center">
-        <div class="flex-1 space-y-4">
-          <div class="inline-flex items-center gap-3 px-4 py-2 bg-green-500/10 text-green-400 rounded-lg font-medium border border-green-500/20">
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-            </svg>
-            <span class="text-sm md:text-base">Smart Suggestion</span>
-          </div>
-          <h3 class="text-2xl md:text-3xl font-bold text-slate-100">Smart Response Optimization</h3>
-          <p class="text-base md:text-lg text-slate-300 leading-relaxed">
-            Not just catching mistakes, but teaching how to improve. AI automatically generates or refines the best text responses for customer questions, helping novices respond at expert level.
-          </p>
+      <article class="bg-slate-800 rounded-xl p-8 border border-slate-700 hover:border-green-500/30 transition-all">
+        <div class="inline-flex items-center gap-3 px-4 py-2 bg-green-500/10 text-green-400 rounded-lg font-medium border border-green-500/20 mb-6">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+          </svg>
+          <span class="text-sm md:text-base">Smart Suggestion</span>
         </div>
-        <div class="flex-1">
-          <div class="h-64 bg-green-500/5 rounded-2xl flex items-center justify-center border border-green-500/10"></div>
-        </div>
+        <h3 class="text-xl md:text-2xl font-bold text-slate-100 mb-4">Smart Response Optimization</h3>
+        <p class="text-sm md:text-base text-slate-300 leading-relaxed">
+          Not just catching mistakes, but teaching how to improve. AI automatically generates or refines the best text responses for customer questions, helping novices respond at expert level.
+        </p>
       </article>
     </div>
   </div>
